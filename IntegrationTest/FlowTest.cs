@@ -20,6 +20,7 @@ namespace IntegrationTest
 
         public FlowTest()
         {
+            //just
             _registrationServer = TestAppServerBuilder()
                 .AppName("RegistrationServer")
                 .Port(8883)
